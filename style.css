@@ -1,0 +1,282 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: #000;
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+ul,
+li {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.header {
+  background: url("img/buddizm-monax-meditaciya.jpg") no-repeat center top;
+  /* background: url("img/Walden_Landing_Video_-_Desktop-High-96k_updated_compressed.png") no-repeat center top / cover; */
+  padding-top: 45px;
+}
+
+header a {
+  color: #fff;
+}
+
+.menu,
+ul,
+li {
+  display: flex;
+  margin-left: auto;
+}
+.menu li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 16px;
+  color: #fff;
+}
+.menu li {
+  margin-right: 40px;
+}
+.logo {
+  margin-right: 35px;
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.info {
+  width: 175px;
+  padding-bottom: 70px;
+  margin: auto;
+  padding-top: 780px;
+}
+
+.btn {
+  border: 1px #fff solid;
+  border-radius: 50px;
+  padding: 13px 16px;
+  text-decoration: none;
+}
+
+.about h3 {
+  display: block;
+  width: 1000px;
+  margin: auto;
+  padding-top: 80px;
+  text-align: center;
+  font-size: 28px;
+  line-height: 1.11em;
+  text-transform: lowercase;
+  font-weight: 400;
+}
+
+.gallery {
+  /* position: absolute; */
+  margin-top: 45px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 35px;
+}
+.img {
+  margin-left: 35px;
+}
+
+.img img {
+  height: 400px;
+  width: 270px;
+  /* 390 */
+}
+.cartinka {
+  transition: width 0.5s, height 0.5s;
+}
+.img p {
+  text-align: center;
+  margin-top: 27px;
+  font-size: 14px;
+  line-height: 1.28em;
+}
+.productAdd {
+  background: url("img/e05fe7ff411ff2a98b80af236a0cb4ad.png") no-repeat center
+    top/cover;
+  margin: 0 35px;
+  margin-top: 35px;
+}
+.productAdd a,
+.productAdd p,
+.productAdd h2 {
+  color: #fff;
+  font-weight: 400;
+}
+.productAdd h2 {
+  /* display: block; */
+  width: 100%;
+  text-align: center;
+  padding-top: 56px;
+  font-size: 26px;
+  line-height: 0.46em;
+}
+.productAdd p {
+  width: 100%;
+  text-align: center;
+  margin-top: 21px;
+  font-size: 14px;
+  line-height: 1.28em;
+}
+.adventus {
+  margin-top: 75px;
+}
+.adventus h2 {
+  width: 100%;
+  text-align: center;
+}
+.galleryItem {
+  display: flex;
+  margin-top: 50px;
+}
+.cardItem {
+  margin-left: 35px;
+}
+.cardItem img {
+  position: relative;
+  z-index: 1;
+  height: 500px;
+  width: 370px;
+}
+.cardItem p {
+  border: 1px solid #fff;
+  border-radius: 25px;
+  padding: 15px 20px;
+  font-size: 14px;
+  line-height: 1.28em;
+  position: relative;
+  z-index: 2;
+  background-color: #fff;
+  width: 300px;
+  margin: auto;
+  margin-top: -50px;
+}
+
+.awards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.award {
+  width: 430px;
+  height: 210px;
+  margin: 0 35px;
+}
+.award img {
+  margin: 35px 150px;
+}
+.award p {
+  margin: 0 105px;
+  text-align: center;
+}
+
+.numTwo {
+  background: url("img/productAddTwo.jpg") no-repeat center top/cover;
+  margin-top: 70px;
+}
+.numTwo p {
+  padding-top: 300px;
+}
+.numTwo .info {
+  width: 220px;
+}
+
+.blockTree h3 {
+  margin-left: 35px;
+  margin-top: 100px;
+  text-align: left;
+  font-size: 24px;
+  line-height: 1.02em;
+}
+.blockTree .gallery {
+  margin-top: 35px;
+}
+
+.signEmail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.signEmail p {
+  margin: auto;
+}
+
+.signEmail input {
+  width: 280px;
+  height: 30px;
+  margin: auto;
+  text-align: center;
+  margin-top: 15px;
+  border-radius: 20px;
+  border: 1px solid #9b9b9b;
+}
+
+.signEmail input:focus {
+  border: 1.5px solid #000;
+}
+
+input::placeholder {
+  text-align: center;
+  font-size: 14px;
+}
+.information {
+  margin-top: 65px;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+.information ul,
+.information li {
+  margin: 0;
+}
+.information a {
+  color: #8c8c8c;
+}
+
+.information ul {
+  display: flex;
+  justify-content: space-between;
+}
+.coopon {
+  margin-top: 20px;
+  width: 100%;
+  height: 60px;
+  background: #ededed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.coopon p {
+  font-size: 14px;
+  line-height: 1.28em;
+  color: #3c3c3c;
+}
